@@ -1,0 +1,11 @@
+# Ignorar el ejecutable de Terraform
+terraform.exe
+
+# Ignorar archivos de estado (contienen datos sensibles como contraseñas)
+*.tfstate
+*.tfstate.backup
+
+# Ignorar carpeta de configuración local
+.terraform/
+.terraform.lock.hcl
+.vs/
